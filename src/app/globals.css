@@ -42,6 +42,9 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
   --container-7xl: 100rem;
+  --breakpoint-2xl: 120rem;
+  --breakpoint-3xl: 150rem;
+  --breakpoint-4xl: 185rem;
 }
 
 :root {
@@ -191,5 +194,12 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.bg-corner {
+  background-image: url("/corner_Detay.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
