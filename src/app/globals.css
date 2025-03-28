@@ -182,4 +182,10 @@ body {
   font-weight: 400;
   color: #fff;
 }
-
+.font-Playfair-display {
+  color: #f3e9da;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

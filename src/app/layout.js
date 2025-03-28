@@ -12,22 +12,24 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
-      <link rel='preconnect' href='https://fonts.googleapis.com'></link>
+    <html lang="en">
+      <link rel="preconnect" href="https://fonts.googleapis.com"></link>
       <link
-        rel='preconnect'
-        href='https://fonts.gstatic.com'
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
         crossorigin
       ></link>
       <link
-        href='https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap'
-        rel='stylesheet'
+        href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap"
+        rel="stylesheet"
       ></link>
-      <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      />
       <body className="bg-[url('/arka_plan.svg')] min-h-screen bg-cover bg-no-repeat bg-center bg-fixed relative ">
         {children}
       </body>
     </html>
   );
 }
-
