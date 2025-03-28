@@ -2,26 +2,29 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function SideDishCard() {
   return (
-    <Card>
+    <Card className='bg-white/90 backdrop-blur-sm h-full'>
       <CardHeader>
-        <CardTitle className="text-2xl text-center font-bold">
+        <CardTitle className='text-2xl text-center font-bold text-gray-800'>
           YARDIMCI
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="flex justify-between items-center px-4 gap-2 h-full">
-          <div className="flex flex-col justify-between items-start gap-2 max-w-1/2 h-full">
-            <p className="max-w-[275px] break-all">
-              Tel Şehriyeli Pirinç Pilavı Pilavı Pilavı Pilavı Pilavı Pilavı
+        <div className='flex justify-around items-center'>
+          <div className='flex flex-col justify-start w-full items-start gap-2 h-full'>
+            <p className='font-medium text-gray-700'>
+              Tel Şehriyeli Pirinç Pilavı
             </p>
-            <p>180 kcal</p>
+            <p className='text-sm text-gray-600'>300 kcal</p>
           </div>
-          <div className="flex flex-col justify-between items-startgap-2 max-w-1/2 h-full">
-            <p className="max-w-[275px] break-all">Sebzeli Bulgur</p>
-            <p>220 kcal</p>
+          <div className='flex items-center w-full gap-3'>
+            <div className='flex flex-col justify-start items-start gap-2 h-full'>
+              <p className='font-medium text-gray-700'>Sebzeli Bulgur</p>
+              <p className='text-sm text-gray-600'>220 kcal</p>
+            </div>
           </div>
         </div>
       </CardContent>
     </Card>
   );
 }
+
