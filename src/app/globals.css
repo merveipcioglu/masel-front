@@ -41,6 +41,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --container-7xl: 100rem;
 }
 
 :root {
@@ -146,4 +147,39 @@ body {
 .font-Montserrat-bold {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
+  color: #fffcec;
 }
+
+.font-Marcel {
+  color: #f3e9da;
+  font-family: "Marcellus SC", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.font-futura {
+  font-family: "Futura", sans-serif;
+  font-weight: 500;
+  color: hsla(0, 0%, 95%, 1);
+}
+
+.font-amarante {
+  font-family: "Amarante", sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.border-gradient {
+  border-right: 0px solid #41300e;
+  border-bottom: 1px solid #41300e;
+  border-left: 1px solid #41300e;
+  border-top: 1px solid #41300e;
+}
+
+.font-Monserrat-medium {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
