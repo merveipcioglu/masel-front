@@ -121,7 +121,10 @@
     @apply bg-background text-foreground;
   }
 }
-
+@font-face {
+  font-family: Marcel;
+  src: url(MarcellusSC-Regular.ttf);
+}
 body {
   margin: 0;
   padding: 0;
@@ -152,7 +155,7 @@ body {
 
 .font-Marcel {
   color: #f3e9da;
-  font-family: "Marcellus SC", serif;
+  font-family: "Marcel";
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -189,3 +192,4 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+
