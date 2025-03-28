@@ -36,7 +36,7 @@ export default function SideDishCard({ sideDishes = [] }) {
         </div>
       </CardContent>
       <Image
-        src='/yardimci.svg'
+        src='/small-pic/side.svg'
         alt='yardımcı_food'
         width={133}
         height={84}

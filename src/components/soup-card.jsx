@@ -36,7 +36,7 @@ export default function SoupCard({ soups = [] }) {
         </div>
       </CardContent>
       <Image
-        src='/corba.svg'
+        src='/small-pic/soup.svg'
         alt='çorba_food'
         width={106}
         height={96}
