@@ -2,24 +2,31 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function SideDishCard() {
   return (
-    <Card className='bg-white/90 backdrop-blur-sm h-full'>
+    <Card className="bg-card-gradient h-full rounded-t-[20px] rounded-b-[4px] text-card-color px-8 pb-0">
       <CardHeader>
-        <CardTitle className='text-2xl text-center font-bold text-gray-800'>
+        <CardTitle className="text-2xl text-center font-bold">
           YARDIMCI
         </CardTitle>
       </CardHeader>
-      <CardContent>
-        <div className='flex justify-around items-center'>
-          <div className='flex flex-col justify-start w-full items-start gap-2 h-full'>
-            <p className='font-medium text-gray-700'>
-              Tel Şehriyeli Pirinç Pilavı
-            </p>
-            <p className='text-sm text-gray-600'>300 kcal</p>
-          </div>
-          <div className='flex items-center w-full gap-3'>
-            <div className='flex flex-col justify-start items-start gap-2 h-full'>
-              <p className='font-medium text-gray-700'>Sebzeli Bulgur</p>
-              <p className='text-sm text-gray-600'>220 kcal</p>
+      <CardContent className="p-0 h-full">
+        <div className="grid grid-cols-12 w-full h-full ">
+          <div className="col-span-12 flex justify-between w-full h-full gap-5">
+            <div className="col-span-6 grid grid-rows-2 justify-start w-full items-start px-4">
+              <p className="mb-1 row-span-1 sm:mb-2 font-Montserrat text-xl">
+                Körili Mantarlı Tavuk
+              </p>
+              <p className="row-span-1 text-xl font-Montserrat-bold">
+                300 kcal
+              </p>
+            </div>
+
+            <div className="col-span-6 grid grid-rows-2 justify-start w-full items-start px-4 ">
+              <p className="mb-1 row-span-1 sm:mb-2 font-Montserrat text-xl">
+                Karışık Kış Sebze Kızartma
+              </p>
+              <p className="row-span-1 text-xl font-Montserrat-bold">
+                270 kcal
+              </p>
             </div>
           </div>
         </div>
@@ -27,4 +34,3 @@ export default function SideDishCard() {
     </Card>
   );
 }
-

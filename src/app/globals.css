@@ -130,3 +130,20 @@ body {
   grid-template-rows: repeat(18, 1fr);
 }
 
+.bg-card-gradient {
+  background: hsla(0, 0%, 4%, 0.61);
+}
+
+.text-card-color {
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.font-Montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.font-Montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
