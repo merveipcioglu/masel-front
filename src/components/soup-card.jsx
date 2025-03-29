@@ -19,14 +19,14 @@ export default function SoupCard({ soups = [] }) {
                 key={index}
                 className={`${
                   index < 2 ? "sm:w-1/2" : "w-full"
-                } flex flex-col justify-start items-start px-2 sm:px-4`}
+                } flex flex-col justify-evenly items-start px-2 sm:px-4`}
               >
-                <p className='mb-1 sm:mb-2 pb-2 sm:pb-4 font-Montserrat text-[14px] sm:text-[15px] lg:text-[18px] 2xl:text-[48px] 3xl:text-[54px] 4xl:text-[72px]'>
+                <p className='mb-1 sm:mb-2 pb-2 sm:pb-4 font-Montserrat text-[14px] sm:text-[15px] lg:text-[24px] 2xl:text-[32px] 3xl:text-[48px] 4xl:text-[54px]'>
                   {soup.name}
                 </p>
-                <p className='font-Montserrat text-[14px] sm:text-[15px] lg:text-[18px] 2xl:text-[48px] 3xl:text-[54px] 4xl:text-[72px]'>
+                <p className='font-Montserrat text-[14px] sm:text-[15px] lg:text-[24px] 2xl:text-[32px] 3xl:text-[48px] 4xl:text-[54px]'>
                   {soup.calories}{" "}
-                  <span className='font-Monserrat-medium text-[10px] sm:text-[12px] lg:text-[14px] 2xl:text-[36px] 3xl:text-[48px] 4xl:text-[66px]'>
+                  <span className='font-Monserrat-medium text-[10px] sm:text-[12px] lg:text-[16px] 2xl:text-[24px] 3xl:text-[36px] 4xl:text-[48px]'>
                     kcal
                   </span>
                 </p>
